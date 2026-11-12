@@ -1,0 +1,17 @@
+# Raw corpus files can be real documents with personal data: never commit them.
+# The folder itself is kept through .gitkeep.
+Skeleton/SampleFile/*
+!Skeleton/SampleFile/.gitkeep
+
+# Office lock files (they record the name of whoever has the document open)
+~$*
+
+# OS metadata (WSL Zone.Identifier files can record where a file was downloaded from)
+*:Zone.Identifier
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Local editor and Claude Code settings
+.vscode/
+.claude/settings.local.json

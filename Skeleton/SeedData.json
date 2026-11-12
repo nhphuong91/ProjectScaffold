@@ -1,0 +1,9 @@
+{
+  "schema": "stage0-{{name}}/1",
+  "encoding": "{{NFC}}",
+  "fields": ["{{field_1}}", "{{field_2}}", "source"],
+  "rows": [
+    { "{{field_1}}": "{{value}}", "{{field_2}}": "{{value}}", "source": "corpus" },
+    { "{{field_1}}": "{{value}}", "{{field_2}}": "{{value}}", "source": "proposed" }
+  ]
+}
