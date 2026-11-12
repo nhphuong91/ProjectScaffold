@@ -86,3 +86,7 @@ A stage is **frozen** when its Open items section reads "None", every check in `
 | C · Counterarguments | The scaffold's known costs and how it mitigates them |
 | X · External benchmark | How it compares with Anthropic's prompting guidance and with spec-writing practice: W3C, RFCs, ADRs, PEPs, Example Mapping |
 | P, D, W | The guideline's pending decisions, decision log and references |
+
+## License
+
+Released under the [MIT License](LICENSE).
